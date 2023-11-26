@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+section{
+    background-color: black;
+}
+
+video{
+    object-fit: cover;
+    height: 100vh;
+
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 96%);
+    font-family: sans-serif;
+    font-size: 5em;
+}
+
+h1 span{
+    display: inline-block;
+    animation: smoke 1s ease-in-out;
+}
+
+@keyframes smoke{
+    0%{
+        opacity: o;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }
+100%{
+    opacity: 1;
+    transform: rotateY(0deg);
+    filter: blur(0px);
+    }
+}
+
+h1 span:nth-child(1){
+    animation-delay: 0.6s;
+}
+
+h1 span:nth-child(2){
+    animation-delay: 1.7s;
+}
+
+h1 span:nth-child(3){
+    animation-delay: 2.3s;
+}
+
+h1 span:nth-child(4){
+    animation-delay: 3.4s;
+}
+
