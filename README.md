@@ -1,3 +1,1 @@
-# saba.css
-ANIMATION OF NAME
-S A B A
+Word animation of "SABA"
